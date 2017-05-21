@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表页</title>
+    <script type="text/javascript">
+        !function () {
+            var a = function () {
+//                获取到屏幕的宽度
+                var w = window.document.documentElement.clientWidth || 320
+                console.log(w);
+//                如果屏幕的宽度大于750，就把屏幕宽度设置成750
+                w > 750 && (w = 750);
+//                根据不同观点屏幕大小设置不同大小的根字节字体大小
+                window.document.documentElement.style.fontSize = w / (750 / 100) + 'px'
+            };
+//            a函数什么时候执行(当dom结构加载完毕，图片，css等资源文件加载之前)
+            window.document.addEventListener("DOMContentLoaded", a, false);
+//            用户垂直或是水平翻转手机？触发垂直水平翻转：触发窗口发生改变
+            var o = 'orientationchange' in window ? 'orientationchange' : 'resize';
+//            添加了一个侦听事件，执行兼容处理事件以及设置根元素字体大小
+            window.addEventListener(o, a, false)
+
+        }()
+    </script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style="height: 2000px">
+
+<div class="list">
+<header>
+    <div class="arrow"></div>
+    <div class="list-title">5.17挑食日</div>
+</header>
+
+<section class="list-content">
+    <ul>
+        <li>全国</li>
+        <li>全国</li>
+    </ul>
+
+
+</section>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>

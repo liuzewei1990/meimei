@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5.17挑食日</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script type="text/javascript">
+        !function () {
+            var a = function () {
+//                获取到屏幕的宽度
+                var w = window.document.documentElement.clientWidth || 320
+                console.log(w);
+//                如果屏幕的宽度大于750，就把屏幕宽度设置成750
+                w > 750 && (w = 750);
+//                根据不同观点屏幕大小设置不同大小的根字节字体大小
+                window.document.documentElement.style.fontSize = w / (750 / 100) + 'px'
+            };
+//            a函数什么时候执行(当dom结构加载完毕，图片，css等资源文件加载之前)
+            window.document.addEventListener("DOMContentLoaded", a, false);
+//            用户垂直或是水平翻转手机？触发垂直水平翻转：触发窗口发生改变
+            var o = 'orientationchange' in window ? 'orientationchange' : 'resize';
+//            添加了一个侦听事件，执行兼容处理事件以及设置根元素字体大小
+            window.addEventListener(o, a, false)
+
+        }()
+    </script>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+<div class="box">
+
+    <!--头部-->
+    <header>
+        <div class="h-img">
+            <img src="img/01.jpg" alt="">
+        </div>
+        <a href="http://www.baidu.com">活动详情</a>
+    </header>
+    <!--上海市-->
+    <section class="s shs">
+
+        <div class="s-title">
+            <h3 class="fl">上海市</h3>
+            <a href="" class="fr">挑更多></a>
+        </div>
+        <div class="s-content1">
+            <div class="s-div">
+                <img src="img/02.jpg" alt="">
+            </div>
+            <div class="clearfix s-text">
+                <div class="s-left clearfix fl">
+                    <span class="text1">挑新鲜</span>
+                    <span class="text2">挑食材</span>
+                    <p>上海威斯汀周日至周四自助晚餐</p>
+                </div>
+                <div class="s-right fr">
+                    <s>原价：RMB 388/位</s>
+                    <br>
+                    <i>挑食价：RMB 258/位</i>
+                </div>
+            </div>
+            <div class="s-bottom">
+                <i class="icon"></i>
+                <span>上海威斯汀大饭店</span>
+            </div>
+        </div>
+        <div class="s-content2 clearfix">
+            <!--左-->
+            <div class="fl s2-left">
+            <div class="s2-img">
+                <img src="./img/04.jpg" alt="">
+            </div>
+            <span class="tiao text1">挑菜系</span>
+            <i class="text2">日式主题自助</i>
+            <s>原价：388/位</s>
+            <i>挑食价：348/位</i>
+            <div class="s-icon s-bottom clearfix">
+                <i class="icon icon1 fl"></i>
+                <span class="fl">上海嘉定喜来登酒店</span>
+            </div>
+        </div>
+            <!--右-->
+            <div class="fr s2-left s2-right">
+                <div class="s2-img">
+                    <img src="./img/05.jpg" alt="">
+                </div>
+                <span class="tiao text1 fr-text1">挑自助</span>
+                <i class="text2">乐园全新国际自助晚餐之旅</i>
+                <s>原价：377/位</s>
+                <i>挑食价：228/位</i>
+                <div class="s-icon s-bottom clearfix">
+                    <i class="icon icon1 fl"></i>
+                    <span class="fl">上海世茂皇家艾美酒店</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!--<section class="s shs">-->
+        <!--<div class="s-title">-->
+            <!--<h3 class="fl">上海市</h3>-->
+            <!--<a href="" class="fr">挑更多></a>-->
+        <!--</div>-->
+
+        <!--<div class="s-content1">-->
+            <!--<div class="s-div">-->
+                <!--<img src="img/02.jpg" alt="">-->
+            <!--</div>-->
+            <!--<div class="clearfix s-text">-->
+                <!--<div class="s-left clearfix fl">-->
+                    <!--<span class="text1">挑新鲜</span>-->
+                    <!--<span class="text2">挑食材</span>-->
+                    <!--<p>上海威斯汀周日至周四自助晚餐</p>-->
+                <!--</div>-->
+                <!--<div class="s-right fr">-->
+                    <!--<s>原价：RMB 388/位</s>-->
+                    <!--<br>-->
+                    <!--<i>挑食价：RMB 258/位</i>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="s-bottom">-->
+                <!--<i class="icon"></i>-->
+                <!--<span>上海威斯汀大饭店</span>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="s-content2 clearfix">-->
+            <!--&lt;!&ndash;左&ndash;&gt;-->
+            <!--<div class="fl s2-left">-->
+                <!--<div class="s2-img">-->
+                    <!--<img src="./img/04.jpg" alt="">-->
+                <!--</div>-->
+                <!--<span class="tiao text1">挑菜系</span>-->
+                <!--<i class="text2">日式主题自助</i>-->
+                <!--<s>原价：388/位</s>-->
+                <!--<i>挑食价：348/位</i>-->
+                <!--<div class="s-icon s-bottom clearfix">-->
+                    <!--<i class="icon icon1 fl"></i>-->
+                    <!--<span class="fl">上海嘉定喜来登酒店</span>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;右&ndash;&gt;-->
+            <!--<div class="fr s2-left s2-right">-->
+                <!--<div class="s2-img">-->
+                    <!--<img src="./img/05.jpg" alt="">-->
+                <!--</div>-->
+                <!--<span class="tiao text1 fr-text1">挑自助</span>-->
+                <!--<i class="text2">乐园全新国际自助晚餐之旅</i>-->
+                <!--<s>原价：377/位</s>-->
+                <!--<i>挑食价：228/位</i>-->
+                <!--<div class="s-icon s-bottom clearfix">-->
+                    <!--<i class="icon icon1 fl"></i>-->
+                    <!--<span class="fl">上海世茂皇家艾美酒店</span>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    <!--</section>-->
+    <!--北京市-->
+    <!--<section class="s b" style="background: #ffe2e2;">-->
+        <!--<div class="s-title">-->
+            <!--<h3 class="fl">北京市</h3>-->
+            <!--<a href="" class="fr b-tiao">挑更多></a>-->
+        <!--</div>-->
+        <!--<div class="s-content2 clearfix">-->
+            <!--&lt;!&ndash;左&ndash;&gt;-->
+            <!--<div class="fl s2-left">-->
+                <!--<div class="s2-img">-->
+                    <!--<img src="./img/06.jpg" alt="">-->
+                <!--</div>-->
+                <!--<div class="b-background">-->
+                    <!--<span class="tiao text1">挑菜系</span>-->
+                    <!--&lt;!&ndash;<i style="color:#000;font-size: 1px;margin: 0;">23456</i>&ndash;&gt;-->
+
+                    <!--<s>原价：168/位</s>-->
+                    <!--<i>挑食价：158/位</i>-->
+                <!--</div>-->
+
+                <!--<div class="s-icon s-bottom clearfix">-->
+                    <!--<i class="icon icon1 fl"></i>-->
+                    <!--<span class="fl">金茂北京威斯汀大饭店</span>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;右&ndash;&gt;-->
+            <!--<div class="fr s2-left s2-right">-->
+                <!--<div class="s2-img">-->
+                    <!--<img src="./img/07.jpg" alt="">-->
+                <!--</div>-->
+                <!--<span class="tiao text1 fr-text1" style="border: 2px solid #b7895f;color: #b7895f">挑品格</span>-->
+                <!--<i class="text2">瑞吉下午茶</i>-->
+                <!--<s>原价：380/位</s>-->
+                <!--<i>挑食价：360/位</i>-->
+                <!--<div class="s-icon s-bottom clearfix">-->
+                    <!--<i class="icon icon1 fl"></i>-->
+                    <!--<span class="fl">北京瑞吉酒店</span>-->
+                <!--</div>-->
+            <!--</div>-->
+
+
+
+        <!--</div>-->
+
+
+    <!--</section>-->
+    <!--深圳市-->
+    <section class="s">
+        <div class="s-title">
+            <h3 class="fl">深圳市</h3>
+            <a href="" class="fr">挑更多></a>
+        </div>
+        <div class="s-content1">
+            <div class="s-div">
+                <img src="img/08.jpg" alt="">
+            </div>
+            <div class="clearfix s-text">
+                <div class="s-left clearfix fl">
+                    <span class="text1" style="border: 2px solid #1d2088;color: #1d2088">挑悠闲</span>
+                    <span class="text2" style="border: 2px solid #cec415;color: #cec415">挑氛围</span>
+                    <p style="white-space: nowrap">平日海滨池畔悠享烧烤自助晚餐</p>
+                </div>
+                <div class="s-right fr">
+                    <s>原价：RMB 313/位</s>
+                    <br>
+                    <i>挑食价：RMB 258/位</i>
+                </div>
+            </div>
+            <div class="s-bottom">
+                <i class="icon"></i>
+                <span>深圳大梅沙京基喜来登度假酒店</span>
+            </div>
+        </div>
+        <div class="s-content2 clearfix">
+            <!--左-->
+            <div class="fl s2-left">
+                <div class="s2-img">
+                    <img src="./img/09.jpg" alt="">
+                </div>
+                <span class="tiao text1" style="display: inline-block;margin-left:15px;border: 2px solid #1d2088;color: #1d2088">挑悠闲</span>
+                <span class="tiao text1"style="display: inline-block;border: 2px solid #eb6877;color: #eb6877">挑体验</span>
+                <i class="text2">高球美食双人浪漫套餐</i>
+                <s>原价：1090/份</s>
+                <i>挑食价：678/份</i>
+                <div class="s-icon s-bottom clearfix">
+                    <i class="icon icon1 fl"></i>
+                    <span class="fl">大运城邦雅乐轩酒店</span>
+                </div>
+            </div>
+            <!--右-->
+            <div class="fr s2-left s2-right">
+                <div class="s2-img">
+                    <img src="./img/10.jpg" alt="">
+                </div>
+                <span class="tiao text1" style="display: inline-block;margin-left:15px;border: 2px solid #6ae2d0;color: #6ae2d0">挑自助</span>
+                <span class="tiao text1"style="display: inline-block;border: 2px solid #f39800;color: #f39800">挑周末</span>
+                <i class="text2">怡聚轩全日餐厅周末自助午餐</i>
+                <s>原价：298/位</s>
+                <i>挑食价：158/位</i>
+                <div class="s-icon s-bottom clearfix">
+                    <i class="icon icon1 fl"></i>
+                    <span class="fl">深圳大中华喜来登酒店</span>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+    <!--广州市-->
+    <section class="s">
+        <div class="s-title">
+            <h3 class="fl">广州市</h3>
+            <a href="" class="fr">挑更多></a>
+        </div>
+        <div class="s-content1">
+            <div class="s-div">
+                <img src="img/11.jpg" alt="">
+            </div>
+            <div class="clearfix s-text">
+                <div class="s-left clearfix fl">
+                    <span class="text1" style="border: 2px solid #ff8a63;color: #ff8a63">挑食材</span>
+                    <span class="text2" style="border: 2px solid #009944;color: #009944">挑新鲜</span>
+                    <p style="white-space: nowrap">喜来登海鲜餐厅放题午餐</p>
+                </div>
+                <div class="s-right fr">
+                    <s>原价：RMB 582/份</s>
+                    <br>
+                    <i>挑食价：RMB 329/份</i>
+                </div>
+            </div>
+            <div class="s-bottom">
+                <i class="icon"></i>
+                <span>粤海喜来登酒店</span>
+            </div>
+        </div>
+        <div class="s-content1" style="margin-top: 15px">
+            <div class="s-div">
+                <img src="img/12.jpg" alt="">
+            </div>
+            <div class="clearfix s-text">
+                <div class="s-left clearfix fl">
+                    <span class="text1" style="border: 2px solid #ff8a63;color: #ff8a63">挑食材</span>
+                    <span class="text2" style="border: 2px solid #009944;color: #009944">挑新鲜</span>
+                    <p style="white-space: nowrap">采悦轩二人套餐</p>
+                </div>
+                <div class="s-right fr">
+                    <s>原价：RMB 446/份</s>
+                    <br>
+                    <i>挑食价：RMB 318/份</i>
+                </div>
+            </div>
+            <div class="s-bottom">
+                <i class="icon"></i>
+                <span>广州花都合景喜来登度假大酒店</span>
+            </div>
+        </div>
+    </section>
+    <!--三亚市-->
+    <section class="s">
+        <div class="s-title">
+            <h3 class="fl">三亚市</h3>
+            <a href="" class="fr">挑更多></a>
+        </div>
+        <div class="s-content1">
+            <div class="s-div">
+                <img src="img/13.jpg" alt="">
+            </div>
+            <div class="clearfix s-text">
+                <div class="s-left clearfix fl">
+                    <span class="text1" style="border: 2px solid #e4007f;color: #e4007f">条菜系</span>
+                    <span class="text2" style="border: 2px solid #1d2088;color: #1d2088">挑悠闲</span>
+                    <p style="white-space: nowrap">泰式咖喱大盆海鲜</p>
+                </div>
+                <div class="s-right fr">
+                    <s>原价：RMB 628/份</s>
+                    <br>
+                    <i>挑食价：RMB 508/份</i>
+                </div>
+            </div>
+            <div class="s-bottom">
+                <i class="icon"></i>
+                <span>三亚御海棠豪华精选度假酒店</span>
+            </div>
+        </div>
+        <div class="s-content1" style="margin-top: 15px">
+            <div class="s-div">
+                <img src="img/14.jpg" alt="">
+            </div>
+            <div class="clearfix s-text">
+                <div class="s-left clearfix fl">
+                    <span class="text1" style="border: 2px solid #cdf5ef;color: #cdf5ef">挑自助</span>
+                    <span class="text2" style="border: 2px solid #00b7ee;color: #00b7ee">挑味道</span>
+                    <p style="white-space: nowrap">东南亚海鲜铁板烧 火锅自助晚宴</p>
+                </div>
+                <div class="s-right fr">
+                    <s>原价：RMB 298/份</s>
+                    <br>
+                    <i>挑食价：RMB 258/份</i>
+                </div>
+            </div>
+            <div class="s-bottom">
+                <i class="icon"></i>
+                <span>三亚喜来登度假酒店</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="list.html">更多选择，按“城”挑食 > ></a>
+    </footer>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/index.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,351 @@
+@rem: 100rem;
+
+* {
+  margin: 0/@rem;
+  padding: 0/@rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+}
+
+.icon {
+  content: "";
+  display: block;
+  width: 29/@rem;
+  height: 26/@rem;
+  //background: aquamarine;
+  background: url("img/03.png") no-repeat;
+  background-size: cover
+
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+.tiao {
+  width: 122/@rem;
+  height: 31/@rem;
+  border-radius: 2/@rem;
+  margin: 15/@rem 0 9/@rem 0;
+  font-size: 18/@rem;
+  text-align: center;
+  line-height: 31/@rem;
+  display: inline-block;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+body, html {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+  font-size: 1px;
+  position: relative;
+}
+
+.box {
+  width: 750/@rem;
+  margin: 0 auto;
+  overflow: hidden;
+  //头部
+  header {
+    position: relative;
+    width: 750/@rem;
+    .h-img {
+      width: 750/@rem;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    a {
+      width: 159/@rem;
+      height: 41/@rem;
+      background: #313131;
+      position: absolute;
+      left: 299/@rem;
+      bottom: 80/@rem;
+      font-size: 18/@rem;
+      color: #fff;
+      text-align: center;
+      line-height: 41/@rem;
+    }
+
+  }
+
+  //  上海市
+  .s {
+    width: 100%;
+    background: #fff;
+    .s-title {
+      width: 686/@rem;
+      height: 100/@rem;
+      margin: 0 auto;
+      line-height: 100/@rem;
+      h3 {
+        font-size: 46/@rem;
+        color: #000;
+        font-weight: 900;
+        display: inline-block;
+      }
+      a {
+        width: 128/@rem;
+        height: 44/@rem;
+        border: 1/@rem #535353 solid;
+        font-size: 26/@rem;
+        color: #535353;
+        text-align: center;
+        line-height: 44/@rem;
+        margin-top: 27/@rem;
+      }
+    }
+    .s-content1 {
+      width: 689/@rem;
+      border: 1px solid #626262;
+      margin: 0 auto;
+      position: relative;
+      .s-div {
+        width: 687/@rem;
+        height: 326/@rem;
+        border: 1/@rem solid #fff;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .s-text {
+        width: 689/@rem;
+        //height: 94/@rem;
+        margin-bottom: 10/@rem;
+        .s-left {
+          width: 405/@rem;
+          padding-left: 24/@rem;
+          span {
+            width: 122/@rem;
+            height: 31/@rem;
+            border-radius: 2/@rem;
+            margin: 15/@rem 0 9/@rem 0;
+            font-size: 18/@rem;
+            text-align: center;
+            line-height: 31/@rem;
+            display: inline-block;
+
+          }
+          .text1 {
+            border: 2/@rem solid #009944;
+            color: #009944;
+          }
+          .text2 {
+            margin-left: 12/@rem;
+            border: 2/@rem solid #eb7b43;
+            color: #eb7b43;
+          }
+          p {
+            font-size: 24/@rem;
+          }
+        }
+        .s-right {
+          padding-top: 28/@rem;
+          text-align: right;
+          margin-right: 31/@rem;
+          s, i {
+            font-size: 22/@rem;
+          }
+          s {
+            color: #696969;
+
+          }
+          i {
+            color: #d10000;
+          }
+        }
+      }
+      .s-bottom {
+        width: 640/@rem;
+        height: 62/@rem;
+        margin: 0 auto;
+        border-top: 1px solid #e5e5e5;
+        .icon {
+          position: absolute;
+          left: 24/@rem;
+          bottom: 19/@rem;
+
+        }
+        span {
+          font-size: 24/@rem;
+          margin: 16/@rem 0 0 31/@rem;
+          display: inline-block;
+
+        }
+
+      }
+    }
+    .s-content2 {
+      width: 692/@rem;
+      margin: 26/@rem auto;
+      .s2-right, .s2-left {
+        width: 334/@rem;
+        border: 1px solid #626262;
+        margin-bottom: 30/@rem;
+      }
+      .s2-left {
+        .s2-img {
+          width: 332/@rem;
+          height: 327/@rem;
+          border: 1/@rem solid #fff;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+
+        }
+        .text1 {
+          border: 2/@rem solid #e4007f;
+          color: #e4007f;
+          margin: 15/@rem auto 7/@rem;
+          display: block;
+        }
+        .text2 {
+          font-size: 24/@rem;
+          text-align: center;
+          //不折行
+          white-space: nowrap;
+        }
+        s {
+          display: block;
+          text-align: center;
+          font-size: 21/@rem;
+          color: #696969;
+          margin-bottom: 6/@rem;
+        }
+        .text2 {
+          margin-bottom: 6/@rem;
+        }
+        i {
+          display: block;
+          text-align: center;
+          font-size: 21/@rem;
+          color: #d10000;
+          margin-bottom: 12/@rem;
+        }
+
+        .s-icon {
+          width: 294/@rem;
+          border-top: 1px solid #e5e5e5;
+          margin: 7/@rem auto;
+          .icon1 {
+            margin-top: 10/@rem;
+          }
+          span {
+            font-size: 22/@rem;
+            margin: 10/@rem 0 0 2/@rem;
+          }
+        }
+
+      }
+
+      .s2-right {
+        .fr-text1 {
+          border: 2/@rem solid #6ae2d0;
+          color: #6ae2d0;
+        }
+      }
+    }
+  }
+
+  //北京市
+
+  //.b-tiao{
+  //  background: #000000;
+  //}
+  .b-background {
+    width: 100%;
+    height: 146/@rem;
+    background: #000;
+    padding: 12/@rem 0 0 0;
+  }
+
+  footer {
+    width: 100%;
+    height: 167/@rem;
+
+    a {
+      width: 368/@rem;
+      height: 54/@rem;
+      border: 2/@rem solid #8d8d8d;
+      display: block;
+      text-align: center;
+      line-height: 54/@rem;
+      //padding-top: 56/@rem;
+      margin: 56/@rem auto 0;
+      font-size: 24/@rem;
+      color: #000;
+
+    }
+
+  }
+
+}
+
+//列表页
+
+.list {
+  //width: 750/@rem;
+  overflow: hidden;
+  .arrow{
+    width: 45/@rem;
+    height: 45/@rem;
+    border-top: 1/@rem solid;
+    border-left:1/@rem solid;
+    position: absolute;
+    top: 85/@rem;
+    left: 34/@rem;
+    transform: rotate(-45deg);
+  }
+  .list-title {
+    height: 200/@rem;
+    font-size: 50/@rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 200/@rem;
+
+  }
+
+
+
+  .list-content{
+    li{
+      height: 110/@rem;
+      font-size: 43/@rem;
+      line-height: 110/@rem;
+      padding-left: 40/@rem;
+      border-bottom: 1/@rem solid #dbdbdb;
+      a{
+        color: #000;
+      }
+    }
+    .color{
+      background: #dbdbdb;
+    }
+
+  }
+}
+

@@ -1,0 +1,133 @@
+﻿[
+  {
+    "type": 1,
+    "title": {
+      "city": "宜春市",
+      "link": "######"
+    },
+    "goods": [
+      {
+        "id": 1,
+        "img": "http://campaign.moneplus.cn/_test2017/spg/images/img-01.jpg",
+        "title": "1-1上海威斯汀周日至周四自助晚餐",
+        "yj": 111,
+        "xj": 111,
+        "bq": [
+          {
+            "name": "挑新鲜a",
+            "color": "#009944"
+          },
+          {
+            "name": "挑食材b",
+            "color": "#eb7b43"
+          }
+        ],
+        "jd": "上海威斯汀大饭店a1"
+      }
+    ]
+  },
+  {
+    "type": 2,
+    "title": {
+      "city": "赣州市",
+      "link": "######"
+    },
+    "goods": [
+      {
+        "id": 1,
+        "img": "http://campaign.moneplus.cn/_test2017/spg/images/img-01.jpg",
+        "title": "1-1上海威斯汀周日至周四自助晚餐",
+        "yj": 222,
+        "xj": 222,
+        "bq": [
+          {
+            "name": "挑新鲜a",
+            "color": "#009944"
+          },
+          {
+            "name": "挑食材b",
+            "color": "#eb7b43"
+          }
+        ],
+        "jd": "上海威斯汀大饭店a1"
+      },
+      {
+        "id": 1,
+        "img": "http://campaign.moneplus.cn/_test2017/spg/images/img-01.jpg",
+        "title": "1-2上海威斯汀周日至周四自助晚餐",
+        "yj": 223,
+        "xj": 2223,
+        "bq": [
+          {
+            "name": "挑新鲜1",
+            "color": "#009944"
+          },
+          {
+            "name": "挑食材1",
+            "color": "#eb7b43"
+          }
+        ],
+        "jd": "上海威斯汀大饭店a2"
+      }
+    ]
+  },
+  {
+    "type": 3,
+    "title": {
+      "city": "新余市",
+      "link": "######"
+    },
+    "goods": [
+      {
+        "id": 1,
+        "img": "http://campaign.moneplus.cn/_test2017/spg/images/img-01.jpg",
+        "title": "2-1上海威斯汀周日至周四自助晚餐",
+        "yj": 331,
+        "xj": 331,
+        "bq": [
+          {
+            "name": "挑新鲜2",
+            "color": "#009944"
+          },
+          {
+            "name": "挑食材2",
+            "color": "#eb7b43"
+          }
+        ],
+        "jd": "上海威斯汀大饭店"
+      },
+      {
+        "id": 1,
+        "img": "http://campaign.moneplus.cn/_test2017/spg/images/img-01.jpg",
+        "title": "2-2上海威斯汀周日至周四自助晚餐",
+        "yj": 332,
+        "xj": 332,
+        "bq": [
+          {
+            "name": "挑食材",
+            "color": "#eb7b43"
+          }
+        ],
+        "jd": "上海威斯汀大饭店"
+      },
+      {
+        "id": 1,
+        "img": "http://campaign.moneplus.cn/_test2017/spg/images/img-01.jpg",
+        "title": "2-3上海威斯汀周日至周四自助晚餐",
+        "yj": 333,
+        "xj": 333,
+        "bq": [
+          {
+            "name": "挑新鲜",
+            "color": "#009944"
+          },
+          {
+            "name": "挑食材",
+            "color": "#eb7b43"
+          }
+        ],
+        "jd": "上海威斯汀大饭店"
+      }
+    ]
+  }
+]

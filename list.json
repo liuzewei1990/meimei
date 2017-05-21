@@ -1,0 +1,55 @@
+[
+  {
+    "tick": "B",
+    "city": [
+      {
+        "name": "北京市",
+        "link": "http://westore.spgwechat.com/starwood/h5/switchActivityCity?city_code=110100"
+      }
+    ]
+  },
+  {
+    "tick": "G",
+    "city": [
+      {
+        "name": "广州市",
+        "link": "http://westore.spgwechat.com/starwood/h5/switchActivityCity?city_code=440100"
+      }
+    ]
+  },
+  {
+    "tick": "S",
+    "city": [
+      {
+        "name": "上海市",
+        "link": "http://westore.spgwechat.com/starwood/h5/switchActivityCity?city_code=310100"
+      },
+      {
+        "name": "深圳市",
+        "link": "http://westore.spgwechat.com/starwood/h5/switchActivityCity?city_code=440300"
+      },
+      {
+        "name": "三亚市",
+        "link": "http://westore.spgwechat.com/starwood/h5/switchActivityCity?city_code=460200"
+      }
+    ]
+  },
+  {
+    "tick": "T",
+    "city": [
+      {
+        "name": "天津市",
+        "link": "http://westore.spgwechat.com/starwood/h5/switchActivityCity?city_code=120100"
+      }
+    ]
+  },
+  {
+    "tick": "W",
+    "city": [
+      {
+        "name": "万宁市",
+        "link": "http://westore.spgwechat.com/starwood/h5/switchActivityCity?city_code=469006"
+      }
+    ]
+  }
+]
